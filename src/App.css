@@ -1,0 +1,43 @@
+.page{
+justify-items: center;
+box-shadow: 2px 2px 5px;
+margin: 20px;
+background-color: darkcyan;
+border:1px solid rgb(1, 68, 63);
+border-radius: 10px;
+padding-top: 5px;
+
+
+
+}
+.profil{
+text-align: center;
+color:rgb(161, 253, 253);
+
+
+
+}
+.button{
+  background-color: aqua;
+  border-radius: 1px;
+ border: 1px solid rgb(224, 249, 255);
+ width: 120px;
+ box-shadow: 1px 1px 3px;
+ margin-bottom: 5px;
+}
+
+.button:hover {background-color: #00a199}
+
+.button:active {
+  background-color: #006e99;
+  box-shadow: 0 2px 5px #666;
+  transform:  translateY(1px);
+}
+
+.profil {
+  animation: fade-in-keyframes 1s;
+}
+@keyframes fade-in-keyframes {
+  from {opacity: 0}
+  to {opacity: 1}
+}
